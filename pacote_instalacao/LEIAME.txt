@@ -1,0 +1,28 @@
+RENOMEADOR DE COMPROVANTES - INSTALACAO
+
+Este programa nao precisa de Python nem de nenhuma instalacao no
+computador. Basta:
+
+1. Copie esta pasta inteira para o computador (pen-drive, rede, etc.),
+   por exemplo para a Area de Trabalho ou Documentos.
+
+2. Renomeie o arquivo ".env.example" para ".env" e abra-o com o Bloco de
+   Notas. Preencha PASTA_ENTRADA com o caminho da pasta onde os
+   comprovantes sao salvos hoje nesse computador.
+
+3. De dois cliques em "instalar.bat". Isso faz o programa iniciar
+   sozinho sempre que alguem fizer login no Windows nesse computador,
+   e ja inicia ele agora mesmo para voce testar. Nao precisa de senha
+   de administrador nem de PowerShell.
+
+4. Para testar: coloque um PDF de comprovante na pasta de entrada
+   configurada e confira, depois de alguns segundos, se ele apareceu
+   renomeado dentro da pasta "Renomeados" (criada do lado deste
+   programa), organizada por empresa.
+
+Para desinstalar (parar de iniciar sozinho), de dois cliques em
+"desinstalar.bat".
+
+Duvidas ou comprovante que nao renomeou direito: confira o arquivo
+"relatorio_processamento.xlsx" (criado do lado deste programa) - ele
+mostra o status de cada comprovante processado.

@@ -1,0 +1,21 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+Renomeados/
+relatorio_processamento.xlsx
+build/
+dist/
+*.spec
+pacote_instalacao/.env
+claude/
+tests\fixtures/
+tests/fixtures/exemplo_inter_boleto.pdf
+tests/fixtures/exemplo_inter_concessionaria.pdf
+tests/fixtures/exemplo_inter_pix.pdf
+tests/fixtures/exemplo_itau_boleto.pdf
+tests/fixtures/exemplo_itau_concessionaria.pdf
+
+# executavel gerado por build_exe.ps1
+pacote_instalacao/RenomeadorComprovantes.exe
